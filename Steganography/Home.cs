@@ -518,7 +518,7 @@ namespace Steganography
             imagepanel.Visible = true;
             imagepanel.Location = new Point(230, 16);
             imagepanel.Height = 920;
-            imagepanel.Width = 880;
+            imagepanel.Width = 950;
 
         }
 
@@ -529,7 +529,7 @@ namespace Steganography
             audiopanel.Visible = true;
             audiopanel.Location = new Point(230, 16);
             audiopanel.Height = 920;
-            audiopanel.Width = 880;
+            audiopanel.Width = 950;
 
         }
 
@@ -739,7 +739,7 @@ namespace Steganography
 
                     messageStream.Seek(0, SeekOrigin.Begin);
                     // Sonuç dosyaya kaydedildi
-                    FileStream fs = new FileStream(txtMessageDstFile.Text, FileMode.Create);
+                    FileStream fs = new FileStream(txtMessageDstFile.Text+".txt", FileMode.Create);
 
                     byte[] buffer = new byte[messageStream.Length];
                     messageStream.Read(buffer, 0, buffer.Length);
