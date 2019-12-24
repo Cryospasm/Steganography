@@ -42,7 +42,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.textBox1.Location = new System.Drawing.Point(225, 153);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(199, 26);
+            this.textBox1.Size = new System.Drawing.Size(193, 26);
             this.textBox1.TabIndex = 0;
             // 
             // textBox2
@@ -51,17 +51,17 @@
             this.textBox2.Location = new System.Drawing.Point(225, 197);
             this.textBox2.Name = "textBox2";
             this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(199, 26);
+            this.textBox2.Size = new System.Drawing.Size(193, 26);
             this.textBox2.TabIndex = 1;
             // 
             // girisBtn
             // 
             this.girisBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.girisBtn.Location = new System.Drawing.Point(105, 245);
+            this.girisBtn.Location = new System.Drawing.Point(105, 255);
             this.girisBtn.Name = "girisBtn";
-            this.girisBtn.Size = new System.Drawing.Size(319, 45);
+            this.girisBtn.Size = new System.Drawing.Size(313, 45);
             this.girisBtn.TabIndex = 2;
-            this.girisBtn.Text = "Giriş";
+            this.girisBtn.Text = "LOGIN";
             this.girisBtn.UseVisualStyleBackColor = true;
             this.girisBtn.Click += new System.EventHandler(this.girisBtn_Click);
             // 
@@ -73,9 +73,9 @@
             this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label1.Location = new System.Drawing.Point(101, 156);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 20);
+            this.label1.Size = new System.Drawing.Size(91, 20);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Kullanıcı Adı";
+            this.label1.Text = "Username";
             // 
             // label2
             // 
@@ -85,9 +85,9 @@
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(101, 200);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(47, 20);
+            this.label2.Size = new System.Drawing.Size(86, 20);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Şifre";
+            this.label2.Text = "Password";
             // 
             // label3
             // 
@@ -95,11 +95,11 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(137, 84);
+            this.label3.Location = new System.Drawing.Point(100, 90);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(247, 25);
+            this.label3.Size = new System.Drawing.Size(318, 25);
             this.label3.TabIndex = 5;
-            this.label3.Text = "LÜTFEN GİRİŞ YAPINIZ";
+            this.label3.Text = "AUTHENTICATION REQUIRED";
             // 
             // Login
             // 
@@ -116,7 +116,7 @@
             this.Controls.Add(this.textBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
-            this.Text = "Giriş";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Giris_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -1092,7 +1092,7 @@
             this.ForeColor = System.Drawing.Color.MidnightBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
-            this.Text = "Steganografi";
+            this.Text = "Steganography";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Home_FormClosing);
             this.Load += new System.EventHandler(this.Home_Load);
             this.imagepanel.ResumeLayout(false);
