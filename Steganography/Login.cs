@@ -50,6 +50,7 @@ namespace Steganography
 
         private void Giris_Load(object sender, EventArgs e)
         {
+
             StreamReader sr = new StreamReader(@"user.txt");
             string line = "";
             while ((line = sr.ReadLine()) != null)

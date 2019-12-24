@@ -29,6 +29,12 @@ namespace Steganography
         {
             txtDstFile.Visible = false;
             groupBox7.Visible = false;
+            imgBtn.FlatStyle = FlatStyle.Flat;
+            imgBtn.FlatAppearance.BorderSize = 0;
+            audioBtn.FlatStyle = FlatStyle.Flat;
+            audioBtn.FlatAppearance.BorderSize = 0;
+            ExitBtn.FlatStyle = FlatStyle.Flat;
+            ExitBtn.FlatAppearance.BorderSize = 0;
         }
 
         // I M A G E //
@@ -516,7 +522,7 @@ namespace Steganography
             audiopanel.Visible = false;
             videopanel.Visible = false;
             imagepanel.Visible = true;
-            imagepanel.Location = new Point(230, 16);
+            imagepanel.Location = new Point(230, 26);
             imagepanel.Height = 920;
             imagepanel.Width = 950;
 
@@ -527,7 +533,7 @@ namespace Steganography
             imagepanel.Visible = false;
             videopanel.Visible = false;
             audiopanel.Visible = true;
-            audiopanel.Location = new Point(230, 16);
+            audiopanel.Location = new Point(230, 26);
             audiopanel.Height = 920;
             audiopanel.Width = 950;
 
@@ -538,7 +544,7 @@ namespace Steganography
             imagepanel.Visible = false;
             audiopanel.Visible = false;
             videopanel.Visible = true;
-            videopanel.Location = new Point(230, 16);
+            videopanel.Location = new Point(230, 26);
             videopanel.Height = 920;
             videopanel.Width = 880;
             

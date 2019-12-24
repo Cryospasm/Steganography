@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.imgBtn = new System.Windows.Forms.Button();
             this.audioBtn = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
@@ -117,6 +118,8 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
             this.imagepanel.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -130,18 +133,20 @@
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
             this.groupBox8.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // imgBtn
             // 
             this.imgBtn.BackColor = System.Drawing.Color.Gainsboro;
+            this.imgBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.imgBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.imgBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.imgBtn.Location = new System.Drawing.Point(21, 59);
+            this.imgBtn.Location = new System.Drawing.Point(21, 114);
             this.imgBtn.Name = "imgBtn";
-            this.imgBtn.Size = new System.Drawing.Size(187, 113);
+            this.imgBtn.Size = new System.Drawing.Size(194, 111);
             this.imgBtn.TabIndex = 0;
-            this.imgBtn.Text = "Resim";
+            this.imgBtn.Text = "IMAGE";
             this.imgBtn.UseVisualStyleBackColor = false;
             this.imgBtn.Click += new System.EventHandler(this.imgBtn_Click);
             // 
@@ -150,24 +155,25 @@
             this.audioBtn.BackColor = System.Drawing.Color.Gainsboro;
             this.audioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.audioBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.audioBtn.Location = new System.Drawing.Point(21, 192);
+            this.audioBtn.Location = new System.Drawing.Point(21, 261);
             this.audioBtn.Name = "audioBtn";
-            this.audioBtn.Size = new System.Drawing.Size(187, 113);
+            this.audioBtn.Size = new System.Drawing.Size(194, 111);
             this.audioBtn.TabIndex = 1;
-            this.audioBtn.Text = "Ses Dosyası";
+            this.audioBtn.Text = "AUDIO";
             this.audioBtn.UseVisualStyleBackColor = false;
             this.audioBtn.Click += new System.EventHandler(this.audioBtn_Click);
             // 
             // ExitBtn
             // 
             this.ExitBtn.BackColor = System.Drawing.Color.Gainsboro;
+            this.ExitBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.ExitBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ExitBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ExitBtn.Location = new System.Drawing.Point(21, 330);
+            this.ExitBtn.Location = new System.Drawing.Point(21, 407);
             this.ExitBtn.Name = "ExitBtn";
-            this.ExitBtn.Size = new System.Drawing.Size(187, 113);
+            this.ExitBtn.Size = new System.Drawing.Size(194, 111);
             this.ExitBtn.TabIndex = 3;
-            this.ExitBtn.Text = "Çıkış";
+            this.ExitBtn.Text = "EXIT";
             this.ExitBtn.UseVisualStyleBackColor = false;
             this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
@@ -262,6 +268,7 @@
             // 
             // imgDecBtn
             // 
+            this.imgDecBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.imgDecBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.imgDecBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.imgDecBtn.Location = new System.Drawing.Point(349, 156);
@@ -810,7 +817,7 @@
             // 
             // groupBox7
             // 
-            this.groupBox7.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.groupBox7.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.groupBox7.Controls.Add(this.ByteCapacity_lbl);
             this.groupBox7.Controls.Add(this.CanSave_lbl);
             this.groupBox7.Controls.Add(this.ImageWidth_lbl);
@@ -823,9 +830,9 @@
             this.groupBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox7.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox7.ForeColor = System.Drawing.Color.Black;
-            this.groupBox7.Location = new System.Drawing.Point(21, 478);
+            this.groupBox7.Location = new System.Drawing.Point(50, 618);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(173, 122);
+            this.groupBox7.Size = new System.Drawing.Size(12, 10);
             this.groupBox7.TabIndex = 7;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Image information";
@@ -834,7 +841,7 @@
             // 
             this.ByteCapacity_lbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ByteCapacity_lbl.AutoSize = true;
-            this.ByteCapacity_lbl.Location = new System.Drawing.Point(117, 47);
+            this.ByteCapacity_lbl.Location = new System.Drawing.Point(-44, 47);
             this.ByteCapacity_lbl.Name = "ByteCapacity_lbl";
             this.ByteCapacity_lbl.Size = new System.Drawing.Size(0, 14);
             this.ByteCapacity_lbl.TabIndex = 2;
@@ -843,7 +850,7 @@
             // 
             this.CanSave_lbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CanSave_lbl.AutoSize = true;
-            this.CanSave_lbl.Location = new System.Drawing.Point(106, 97);
+            this.CanSave_lbl.Location = new System.Drawing.Point(-55, 97);
             this.CanSave_lbl.Name = "CanSave_lbl";
             this.CanSave_lbl.Size = new System.Drawing.Size(35, 14);
             this.CanSave_lbl.TabIndex = 1;
@@ -853,7 +860,7 @@
             // 
             this.ImageWidth_lbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ImageWidth_lbl.AutoSize = true;
-            this.ImageWidth_lbl.Location = new System.Drawing.Point(106, 72);
+            this.ImageWidth_lbl.Location = new System.Drawing.Point(-55, 72);
             this.ImageWidth_lbl.Name = "ImageWidth_lbl";
             this.ImageWidth_lbl.Size = new System.Drawing.Size(35, 14);
             this.ImageWidth_lbl.TabIndex = 1;
@@ -863,7 +870,7 @@
             // 
             this.ImageHeight_lbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ImageHeight_lbl.AutoSize = true;
-            this.ImageHeight_lbl.Location = new System.Drawing.Point(106, 47);
+            this.ImageHeight_lbl.Location = new System.Drawing.Point(-55, 47);
             this.ImageHeight_lbl.Name = "ImageHeight_lbl";
             this.ImageHeight_lbl.Size = new System.Drawing.Size(35, 14);
             this.ImageHeight_lbl.TabIndex = 1;
@@ -873,7 +880,7 @@
             // 
             this.ImageSize_lbl.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.ImageSize_lbl.AutoSize = true;
-            this.ImageSize_lbl.Location = new System.Drawing.Point(106, 22);
+            this.ImageSize_lbl.Location = new System.Drawing.Point(-55, 22);
             this.ImageSize_lbl.Name = "ImageSize_lbl";
             this.ImageSize_lbl.Size = new System.Drawing.Size(35, 14);
             this.ImageSize_lbl.TabIndex = 1;
@@ -883,7 +890,7 @@
             // 
             this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(42, 97);
+            this.label13.Location = new System.Drawing.Point(-119, 97);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(63, 14);
             this.label13.TabIndex = 0;
@@ -893,7 +900,7 @@
             // 
             this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(42, 72);
+            this.label14.Location = new System.Drawing.Point(-119, 72);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(44, 14);
             this.label14.TabIndex = 0;
@@ -903,7 +910,7 @@
             // 
             this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(42, 47);
+            this.label15.Location = new System.Drawing.Point(-119, 47);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(48, 14);
             this.label15.TabIndex = 0;
@@ -913,7 +920,7 @@
             // 
             this.label16.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(42, 22);
+            this.label16.Location = new System.Drawing.Point(-119, 22);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(36, 14);
             this.label16.TabIndex = 0;
@@ -940,9 +947,9 @@
             this.statusStrip1.BackColor = System.Drawing.Color.Silver;
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 698);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 633);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1276, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1201, 22);
             this.statusStrip1.SizingGrip = false;
             this.statusStrip1.TabIndex = 8;
             this.statusStrip1.Text = "statusStrip1";
@@ -1047,12 +1054,33 @@
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.imgEncBtn_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label21);
+            this.panel1.Location = new System.Drawing.Point(0, 1);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1201, 47);
+            this.panel1.TabIndex = 9;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label21.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label21.Location = new System.Drawing.Point(447, 7);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(275, 31);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "STEGANOGRAPHY";
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(1276, 720);
+            this.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.ClientSize = new System.Drawing.Size(1201, 655);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.audiopanel);
@@ -1062,6 +1090,7 @@
             this.Controls.Add(this.audioBtn);
             this.Controls.Add(this.imgBtn);
             this.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
             this.Text = "Steganografi";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Home_FormClosing);
@@ -1088,6 +1117,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
             this.groupBox8.ResumeLayout(false);
             this.groupBox8.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1183,5 +1214,7 @@
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label21;
     }
 }
