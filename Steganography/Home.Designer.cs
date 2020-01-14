@@ -42,6 +42,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.imgDecBtn = new System.Windows.Forms.Button();
+            this.groupBox8 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.selectFileBtn1 = new System.Windows.Forms.Button();
             this.browseImgBtn1 = new System.Windows.Forms.Button();
@@ -50,23 +58,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.imgEncBtn = new System.Windows.Forms.Button();
-            this.videopanel = new System.Windows.Forms.Panel();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.button13 = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.button16 = new System.Windows.Forms.Button();
             this.audiopanel = new System.Windows.Forms.Panel();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.txtKeyFile2 = new System.Windows.Forms.TextBox();
@@ -76,9 +67,9 @@
             this.btnSrcFile2 = new System.Windows.Forms.Button();
             this.txtMessageDstFile = new System.Windows.Forms.TextBox();
             this.txtSrcFile2 = new System.Windows.Forms.TextBox();
+            this.btnExtract = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.btnExtract = new System.Windows.Forms.Button();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.txtDstFile = new System.Windows.Forms.TextBox();
             this.txtKeyFile = new System.Windows.Forms.TextBox();
@@ -87,10 +78,10 @@
             this.btnKeyFile = new System.Windows.Forms.Button();
             this.btnSrcFile = new System.Windows.Forms.Button();
             this.txtMsgFile = new System.Windows.Forms.TextBox();
+            this.btnHide = new System.Windows.Forms.Button();
             this.txtSrcFile = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.btnHide = new System.Windows.Forms.Button();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.ByteCapacity_lbl = new System.Windows.Forms.Label();
             this.CanSave_lbl = new System.Windows.Forms.Label();
@@ -110,30 +101,39 @@
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
             this.saveFileDialog2 = new System.Windows.Forms.SaveFileDialog();
             this.errorProvider = new System.Windows.Forms.ErrorProvider(this.components);
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label21 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.button16 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button13 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.videopanel = new System.Windows.Forms.Panel();
             this.imagepanel.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox8.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.videopanel.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.audiopanel.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).BeginInit();
-            this.groupBox8.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.videopanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // imgBtn
@@ -142,7 +142,7 @@
             this.imgBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.imgBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.imgBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.imgBtn.Location = new System.Drawing.Point(21, 114);
+            this.imgBtn.Location = new System.Drawing.Point(12, 103);
             this.imgBtn.Name = "imgBtn";
             this.imgBtn.Size = new System.Drawing.Size(194, 111);
             this.imgBtn.TabIndex = 0;
@@ -155,7 +155,7 @@
             this.audioBtn.BackColor = System.Drawing.Color.Gainsboro;
             this.audioBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.audioBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.audioBtn.Location = new System.Drawing.Point(21, 261);
+            this.audioBtn.Location = new System.Drawing.Point(12, 250);
             this.audioBtn.Name = "audioBtn";
             this.audioBtn.Size = new System.Drawing.Size(194, 111);
             this.audioBtn.TabIndex = 1;
@@ -169,7 +169,7 @@
             this.ExitBtn.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.ExitBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.ExitBtn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ExitBtn.Location = new System.Drawing.Point(21, 407);
+            this.ExitBtn.Location = new System.Drawing.Point(12, 396);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(194, 111);
             this.ExitBtn.TabIndex = 3;
@@ -183,9 +183,9 @@
             this.imagepanel.Controls.Add(this.groupBox2);
             this.imagepanel.Controls.Add(this.groupBox8);
             this.imagepanel.Controls.Add(this.groupBox1);
-            this.imagepanel.Location = new System.Drawing.Point(359, 622);
+            this.imagepanel.Location = new System.Drawing.Point(212, 56);
             this.imagepanel.Name = "imagepanel";
-            this.imagepanel.Size = new System.Drawing.Size(167, 25);
+            this.imagepanel.Size = new System.Drawing.Size(965, 577);
             this.imagepanel.TabIndex = 4;
             // 
             // groupBox2
@@ -279,6 +279,96 @@
             this.imgDecBtn.UseVisualStyleBackColor = true;
             this.imgDecBtn.Click += new System.EventHandler(this.imgDecBtn_Click);
             // 
+            // groupBox8
+            // 
+            this.groupBox8.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox8.Controls.Add(this.button1);
+            this.groupBox8.Controls.Add(this.button2);
+            this.groupBox8.Controls.Add(this.textBox1);
+            this.groupBox8.Controls.Add(this.textBox2);
+            this.groupBox8.Controls.Add(this.label19);
+            this.groupBox8.Controls.Add(this.label20);
+            this.groupBox8.Controls.Add(this.button3);
+            this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox8.Location = new System.Drawing.Point(44, 41);
+            this.groupBox8.Name = "groupBox8";
+            this.groupBox8.Size = new System.Drawing.Size(877, 253);
+            this.groupBox8.TabIndex = 0;
+            this.groupBox8.TabStop = false;
+            this.groupBox8.Text = "Encrypt";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(650, 105);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(122, 29);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Browse";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.selectFileBtn1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(650, 53);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(122, 26);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Browse";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.browseImgBtn1_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(220, 108);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(383, 26);
+            this.textBox1.TabIndex = 4;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(220, 53);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(383, 26);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label19.Location = new System.Drawing.Point(67, 114);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(117, 20);
+            this.label19.TabIndex = 2;
+            this.label19.Text = "Select Text File";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label20.Location = new System.Drawing.Point(67, 56);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(103, 20);
+            this.label20.TabIndex = 1;
+            this.label20.Text = "Select Image";
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button3.Location = new System.Drawing.Point(349, 161);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(122, 44);
+            this.button3.TabIndex = 0;
+            this.button3.Text = "Encrypt";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.imgEncBtn_Click);
+            // 
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
@@ -369,185 +459,14 @@
             this.imgEncBtn.UseVisualStyleBackColor = true;
             this.imgEncBtn.Click += new System.EventHandler(this.imgEncBtn_Click);
             // 
-            // videopanel
-            // 
-            this.videopanel.BackColor = System.Drawing.Color.Transparent;
-            this.videopanel.Controls.Add(this.groupBox3);
-            this.videopanel.Controls.Add(this.groupBox4);
-            this.videopanel.Location = new System.Drawing.Point(856, 622);
-            this.videopanel.Name = "videopanel";
-            this.videopanel.Size = new System.Drawing.Size(52, 11);
-            this.videopanel.TabIndex = 5;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.button6);
-            this.groupBox3.Controls.Add(this.button12);
-            this.groupBox3.Controls.Add(this.textBox5);
-            this.groupBox3.Controls.Add(this.textBox6);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.label6);
-            this.groupBox3.Controls.Add(this.button13);
-            this.groupBox3.Location = new System.Drawing.Point(44, 315);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(830, 232);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Decrypt";
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(645, 98);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 13;
-            this.button6.Text = "Browse";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(645, 46);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(75, 23);
-            this.button12.TabIndex = 12;
-            this.button12.Text = "Browse";
-            this.button12.UseVisualStyleBackColor = true;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(215, 101);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(383, 20);
-            this.textBox5.TabIndex = 11;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(215, 46);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(383, 20);
-            this.textBox6.TabIndex = 10;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(113, 108);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(79, 13);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "Save File To";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label6.Location = new System.Drawing.Point(110, 46);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(79, 13);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "Select Video";
-            // 
-            // button13
-            // 
-            this.button13.Location = new System.Drawing.Point(377, 164);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(75, 23);
-            this.button13.TabIndex = 7;
-            this.button13.Text = "Decrypt";
-            this.button13.UseVisualStyleBackColor = true;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox4.Controls.Add(this.button14);
-            this.groupBox4.Controls.Add(this.button15);
-            this.groupBox4.Controls.Add(this.textBox7);
-            this.groupBox4.Controls.Add(this.textBox8);
-            this.groupBox4.Controls.Add(this.label7);
-            this.groupBox4.Controls.Add(this.label8);
-            this.groupBox4.Controls.Add(this.button16);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox4.Location = new System.Drawing.Point(44, 41);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(830, 232);
-            this.groupBox4.TabIndex = 0;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Encrypt";
-            // 
-            // button14
-            // 
-            this.button14.Location = new System.Drawing.Point(650, 105);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(75, 23);
-            this.button14.TabIndex = 6;
-            this.button14.Text = "Browse";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button15
-            // 
-            this.button15.Location = new System.Drawing.Point(650, 53);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(75, 23);
-            this.button15.TabIndex = 5;
-            this.button15.Text = "Browse";
-            this.button15.UseVisualStyleBackColor = true;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(220, 108);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(383, 20);
-            this.textBox7.TabIndex = 4;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(220, 53);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(383, 20);
-            this.textBox8.TabIndex = 3;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label7.Location = new System.Drawing.Point(118, 115);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(67, 13);
-            this.label7.TabIndex = 2;
-            this.label7.Text = "Select File";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label8.Location = new System.Drawing.Point(115, 53);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(79, 13);
-            this.label8.TabIndex = 1;
-            this.label8.Text = "Select Video";
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(382, 171);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 0;
-            this.button16.Text = "Encrypt";
-            this.button16.UseVisualStyleBackColor = true;
-            // 
             // audiopanel
             // 
             this.audiopanel.BackColor = System.Drawing.Color.Transparent;
             this.audiopanel.Controls.Add(this.groupBox5);
             this.audiopanel.Controls.Add(this.groupBox6);
-            this.audiopanel.Location = new System.Drawing.Point(589, 618);
+            this.audiopanel.Location = new System.Drawing.Point(50, 598);
             this.audiopanel.Name = "audiopanel";
-            this.audiopanel.Size = new System.Drawing.Size(170, 39);
+            this.audiopanel.Size = new System.Drawing.Size(123, 23);
             this.audiopanel.TabIndex = 6;
             // 
             // groupBox5
@@ -645,6 +564,18 @@
             this.txtSrcFile2.Size = new System.Drawing.Size(384, 26);
             this.txtSrcFile2.TabIndex = 10;
             // 
+            // btnExtract
+            // 
+            this.btnExtract.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnExtract.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnExtract.Location = new System.Drawing.Point(351, 200);
+            this.btnExtract.Name = "btnExtract";
+            this.btnExtract.Size = new System.Drawing.Size(122, 44);
+            this.btnExtract.TabIndex = 7;
+            this.btnExtract.Text = "Decrypt";
+            this.btnExtract.UseVisualStyleBackColor = true;
+            this.btnExtract.Click += new System.EventHandler(this.btnExtract_Click);
+            // 
             // label9
             // 
             this.label9.AutoSize = true;
@@ -666,18 +597,6 @@
             this.label10.Size = new System.Drawing.Size(99, 20);
             this.label10.TabIndex = 8;
             this.label10.Text = "Select Audio";
-            // 
-            // btnExtract
-            // 
-            this.btnExtract.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnExtract.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnExtract.Location = new System.Drawing.Point(351, 200);
-            this.btnExtract.Name = "btnExtract";
-            this.btnExtract.Size = new System.Drawing.Size(122, 44);
-            this.btnExtract.TabIndex = 7;
-            this.btnExtract.Text = "Decrypt";
-            this.btnExtract.UseVisualStyleBackColor = true;
-            this.btnExtract.Click += new System.EventHandler(this.btnExtract_Click);
             // 
             // groupBox6
             // 
@@ -772,6 +691,18 @@
             this.txtMsgFile.Size = new System.Drawing.Size(383, 26);
             this.txtMsgFile.TabIndex = 4;
             // 
+            // btnHide
+            // 
+            this.btnHide.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnHide.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnHide.Location = new System.Drawing.Point(351, 203);
+            this.btnHide.Name = "btnHide";
+            this.btnHide.Size = new System.Drawing.Size(122, 44);
+            this.btnHide.TabIndex = 0;
+            this.btnHide.Text = "Encrypt";
+            this.btnHide.UseVisualStyleBackColor = true;
+            this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
+            // 
             // txtSrcFile
             // 
             this.txtSrcFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
@@ -803,18 +734,6 @@
             this.label12.TabIndex = 1;
             this.label12.Text = "Select Audio";
             // 
-            // btnHide
-            // 
-            this.btnHide.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnHide.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btnHide.Location = new System.Drawing.Point(351, 203);
-            this.btnHide.Name = "btnHide";
-            this.btnHide.Size = new System.Drawing.Size(122, 44);
-            this.btnHide.TabIndex = 0;
-            this.btnHide.Text = "Encrypt";
-            this.btnHide.UseVisualStyleBackColor = true;
-            this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
-            // 
             // groupBox7
             // 
             this.groupBox7.BackColor = System.Drawing.SystemColors.ButtonShadow;
@@ -830,7 +749,7 @@
             this.groupBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox7.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox7.ForeColor = System.Drawing.Color.Black;
-            this.groupBox7.Location = new System.Drawing.Point(50, 618);
+            this.groupBox7.Location = new System.Drawing.Point(50, 561);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Size = new System.Drawing.Size(12, 10);
             this.groupBox7.TabIndex = 7;
@@ -964,96 +883,6 @@
             // 
             this.errorProvider.ContainerControl = this;
             // 
-            // groupBox8
-            // 
-            this.groupBox8.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox8.Controls.Add(this.button1);
-            this.groupBox8.Controls.Add(this.button2);
-            this.groupBox8.Controls.Add(this.textBox1);
-            this.groupBox8.Controls.Add(this.textBox2);
-            this.groupBox8.Controls.Add(this.label19);
-            this.groupBox8.Controls.Add(this.label20);
-            this.groupBox8.Controls.Add(this.button3);
-            this.groupBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.groupBox8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox8.Location = new System.Drawing.Point(44, 41);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(877, 253);
-            this.groupBox8.TabIndex = 0;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Encrypt";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button1.Location = new System.Drawing.Point(650, 105);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 29);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Browse";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.selectFileBtn1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(650, 53);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(122, 26);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Browse";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.browseImgBtn1_Click);
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(220, 108);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(383, 26);
-            this.textBox1.TabIndex = 4;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(220, 53);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(383, 26);
-            this.textBox2.TabIndex = 3;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label19.Location = new System.Drawing.Point(67, 114);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(117, 20);
-            this.label19.TabIndex = 2;
-            this.label19.Text = "Select Text File";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label20.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label20.Location = new System.Drawing.Point(67, 56);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(103, 20);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Select Image";
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button3.Location = new System.Drawing.Point(349, 161);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(122, 44);
-            this.button3.TabIndex = 0;
-            this.button3.Text = "Encrypt";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.imgEncBtn_Click);
-            // 
             // panel1
             // 
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -1074,21 +903,192 @@
             this.label21.TabIndex = 0;
             this.label21.Text = "STEGANOGRAPHY";
             // 
+            // groupBox4
+            // 
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox4.Controls.Add(this.button14);
+            this.groupBox4.Controls.Add(this.button15);
+            this.groupBox4.Controls.Add(this.textBox7);
+            this.groupBox4.Controls.Add(this.textBox8);
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Controls.Add(this.button16);
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.groupBox4.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.groupBox4.Location = new System.Drawing.Point(44, 41);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(830, 232);
+            this.groupBox4.TabIndex = 0;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Encrypt";
+            // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(382, 171);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 0;
+            this.button16.Text = "Encrypt";
+            this.button16.UseVisualStyleBackColor = true;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label8.Location = new System.Drawing.Point(115, 53);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(79, 13);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Select Video";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.Location = new System.Drawing.Point(118, 115);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(67, 13);
+            this.label7.TabIndex = 2;
+            this.label7.Text = "Select File";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(220, 53);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(383, 20);
+            this.textBox8.TabIndex = 3;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(220, 108);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(383, 20);
+            this.textBox7.TabIndex = 4;
+            // 
+            // button15
+            // 
+            this.button15.Location = new System.Drawing.Point(650, 53);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(75, 23);
+            this.button15.TabIndex = 5;
+            this.button15.Text = "Browse";
+            this.button15.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(650, 105);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(75, 23);
+            this.button14.TabIndex = 6;
+            this.button14.Text = "Browse";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.button6);
+            this.groupBox3.Controls.Add(this.button12);
+            this.groupBox3.Controls.Add(this.textBox5);
+            this.groupBox3.Controls.Add(this.textBox6);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.button13);
+            this.groupBox3.Location = new System.Drawing.Point(44, 315);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(830, 232);
+            this.groupBox3.TabIndex = 1;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Decrypt";
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(377, 164);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 23);
+            this.button13.TabIndex = 7;
+            this.button13.Text = "Decrypt";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(110, 46);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 13);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Select Video";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label5.Location = new System.Drawing.Point(113, 108);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(79, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Save File To";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(215, 46);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(383, 20);
+            this.textBox6.TabIndex = 10;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(215, 101);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(383, 20);
+            this.textBox5.TabIndex = 11;
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(645, 46);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 23);
+            this.button12.TabIndex = 12;
+            this.button12.Text = "Browse";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(645, 98);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 13;
+            this.button6.Text = "Browse";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // videopanel
+            // 
+            this.videopanel.BackColor = System.Drawing.Color.Transparent;
+            this.videopanel.Controls.Add(this.groupBox3);
+            this.videopanel.Controls.Add(this.groupBox4);
+            this.videopanel.Location = new System.Drawing.Point(50, 581);
+            this.videopanel.Name = "videopanel";
+            this.videopanel.Size = new System.Drawing.Size(52, 11);
+            this.videopanel.TabIndex = 5;
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(1201, 655);
+            this.Controls.Add(this.ExitBtn);
+            this.Controls.Add(this.imgBtn);
+            this.Controls.Add(this.audioBtn);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.audiopanel);
             this.Controls.Add(this.videopanel);
             this.Controls.Add(this.imagepanel);
-            this.Controls.Add(this.ExitBtn);
-            this.Controls.Add(this.audioBtn);
-            this.Controls.Add(this.imgBtn);
             this.ForeColor = System.Drawing.Color.MidnightBlue;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Home";
@@ -1098,13 +1098,10 @@
             this.imagepanel.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox8.ResumeLayout(false);
+            this.groupBox8.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            this.videopanel.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.audiopanel.ResumeLayout(false);
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
@@ -1115,10 +1112,13 @@
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider)).EndInit();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.videopanel.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1146,23 +1146,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button imgEncBtn;
-        private System.Windows.Forms.Panel videopanel;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Panel audiopanel;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button btnMessageDstFile;
@@ -1216,5 +1199,22 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Panel videopanel;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button button16;
     }
 }
